@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from utils import process_data
 
-data= pd.read_csv('https://github.com/basleal22/kaim-week-0/blob/task1/data/benin-malanville.csv')
+data= pd.read_csv('https://raw.githubusercontent.com/basleal22/kaim-week-0/task1/data/benin-malanville.csv', on_bad_lines='skip')
 
 # Title and description
 st.title("Data Insights Dashboard")
